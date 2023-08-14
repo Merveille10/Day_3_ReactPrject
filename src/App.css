@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  margin-bottom: 100px;
+}
+
+.image{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+}
+
+.formest{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  align-items: flex-start;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: crimson;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+.user-state{
+  color: dimgrey;
+  font-size: 10px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.elt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgb(0, 182, 254);
+  color: white;
+  font-size: 10px;
+  margin: 3px;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.user-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
