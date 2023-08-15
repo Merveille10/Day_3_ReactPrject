@@ -1,8 +1,8 @@
 import reactLogo from './assets/react.svg'
-import cssImg from './image/cssImg.png'
-import htmlImg from './image/htmlmg.png'
-import jsImg from './image/jsimg.png'
-import profilImg from './image/profilImg.jpg'
+import cssImg from './assets/cssImg.png'
+import htmlImg from './assets/htmlmg.png'
+import jsImg from './assets/jsimg.png'
+import profilImg from './assets/profilImg.jpg'
 import './App.css'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <img className='image' src={jsImg} alt="js" />
       <img className='image' src={reactLogo} alt="React" />
     </div>
-    
+
 
     <div>
       <h1>SUBSCIRBE</h1>
