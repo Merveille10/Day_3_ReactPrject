@@ -9,8 +9,11 @@
   align-items: center;
 }
 
-img{
+.language{
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .image{
